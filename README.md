@@ -16,8 +16,8 @@ npm i -S typescript
 tsc --init
 ```
 
-1. Install jest with es6 support
-
+1. Install jest with typescript support
+[source](https://jestjs.io/docs/getting-started#using-typescript)
 ```sh
 npm i -D babel-jest @babel/core @babel/preset-env @babel/preset-typescript @types/jest
 
