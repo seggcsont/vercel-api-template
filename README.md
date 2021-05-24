@@ -89,3 +89,23 @@ EOF
 # Configure project and run locally
 vercel dev
 ```
+
+1. Add first e2e test
+
+```sh
+npm i -D supertest @types/supertest
+
+cat > __e2e_test__/greeting.spec.ts <<EOF
+import request from "supertest";
+
+describe("api/greeting" , () => {
+  it("should return 200 and the greeting", async () => {
+    const response = await request("http://localhost:3000").get("/api/greeting").send();
+    expect(response.status).toEqual(200);
+  });
+}); 
+EOF
+
+# Run test
+jest __e2e_test__
+```
