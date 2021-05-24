@@ -15,3 +15,19 @@ npm init
 npm i -S typescript
 tsc --init
 ```
+
+1. Install jest with es6 support
+
+```sh
+npm i -D babel-jest @babel/core @babel/preset-env @babel/preset-typescript @types/jest
+
+cat > babel.config.js <<EOF
+// babel.config.js
+module.exports = {
+  presets: [
+    ['@babel/preset-env', {targets: {node: 'current'}}],
+     '@babel/preset-typescript',
+  ],
+};
+EOF
+```
