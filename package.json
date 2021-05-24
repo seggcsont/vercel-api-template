@@ -1,0 +1,26 @@
+{
+  "name": "vercel-api-template",
+  "version": "1.0.0",
+  "description": "Vercel hosted api template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seggcsont/vercel-api-template.git"
+  },
+  "keywords": [
+    "es6",
+    "typescript",
+    "vercel",
+    "api",
+    "template"
+  ],
+  "author": "Laszlo.Tarcsanyi@msci.com",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/seggcsont/vercel-api-template/issues"
+  },
+  "homepage": "https://github.com/seggcsont/vercel-api-template#readme"
+}
