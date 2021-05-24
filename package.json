@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/seggcsont/vercel-api-template/issues"
   },
-  "homepage": "https://github.com/seggcsont/vercel-api-template#readme"
+  "homepage": "https://github.com/seggcsont/vercel-api-template#readme",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
 }
